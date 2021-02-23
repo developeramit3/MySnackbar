@@ -13,3 +13,10 @@
   
   
   [![](https://jitpack.io/v/developeramit3/MySnackbar.svg)](https://jitpack.io/#developeramit3/MySnackbar)
+  
+  
+  # How to Use
+  
+       MySnackbar.with(MainActivity.this,view).type(Type.ERROR)
+                        .message("Replace with your own action")
+                        .duration(Duration.LONG).show();
